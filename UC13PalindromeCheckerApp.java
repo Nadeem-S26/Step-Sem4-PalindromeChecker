@@ -26,9 +26,7 @@ public class UC13PalindromeCheckerApp {
     }
 }
 
-interface PalindromeStrategy {
-    boolean check(String input);
-}
+interface PalindromeStrategy {boolean check(String input);}
 
 class StackStrategy implements PalindromeStrategy {
     public boolean check(String input) {
